@@ -7,6 +7,8 @@ const validator = require('validator');
 var port = process.env.PORT || 3000;
 const app = express();
 
+console.log(__dirname);
+
 app.use(bodyParser.urlencoded({ extender: false }));
 app.use(bodyParser.json());
 
